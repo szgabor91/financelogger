@@ -1,0 +1,12 @@
+{
+  "name": "ts-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.2.4"
+  }
+}

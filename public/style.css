@@ -1,0 +1,32 @@
+h1 {
+    color: #408DFA;
+    text-align: center;
+}
+
+.container {
+    background-color: whitesmoke;
+    width: 1500px;
+    height: 250px;
+}
+
+.fieldContainer {
+    position: relative;
+    padding: 0 400px 0 400px;
+}
+
+.field {
+    margin: 75px 10px 50px 10px;
+    text-align: center;
+    float: left;
+}
+
+.addButton {
+    margin: 0px 10px 100px 250px;
+    text-align: center;
+    float: left;
+}
+
+.docs {
+    float: left;
+    margin-top: 100px;
+}
