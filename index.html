@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>TypeScript oldal</title>
+</head>
+<body>
+    <h1>Finance logger</h1>
+
+    <div class="container">
+
+        <!-- FORM -->
+        <form class="form">
+            <div class="fieldContainer">
+            <!-- INVOICE / PAYMENT -->
+            <div class="field">
+                <div class="method">
+                    <label for="">Method:</label>
+                    <br>
+                    <select id="type">
+                        <option value="invoice">Invoice</option>
+                        <option value="payment">Payment</option>
+                    </select>
+                </div>
+            </div>
+            <!-- TO / FROM -->
+            <div class="field">
+                <label for="">To/From:</label>
+                <br>
+                <input type="text" id="toFrom">
+            </div>
+            <!-- DETAILS -->
+            <div class="field">
+                <label for="">Details:</label>
+                <br>
+                <input type="text" id="details">
+            </div>
+            <!-- AMOUNT -->
+            <div class="field">
+                <label for="">Amount:</label>
+                <br>
+                <input type="text" id="amount">
+            </div>
+            <button type="submit" class="addButton">Add</button>
+        </div>
+        </form>
+
+        <div class="docs">
+            <p id="empty"></p>
+            <ul id="docsUl"></ul>
+        </div>
+    
+
+
+    </div>
+
+    <script type="module" src="app.js"></script>
+
+</body>
+</html>
